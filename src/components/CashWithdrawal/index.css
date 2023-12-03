@@ -1,0 +1,76 @@
+/* Write your CSS here */
+.bg-container {
+  background-color: #150b3e;
+  min-height: 100vh;
+  padding: 50px;
+}
+
+.username {
+  display: flex;
+}
+
+.letter {
+  background-color: #c7d2fe;
+  width: 50px;
+  border-radius: 40px;
+  padding: 10px;
+  color: #7c3aed;
+  font-family: 'Roboto';
+  text-align: center;
+}
+
+.name {
+  color: white;
+  font-family: 'Roboto';
+  font-size: 25px;
+  padding-left: 15px;
+}
+
+.balance {
+  display: flex;
+  justify-content: space-between;
+}
+
+.balance-description {
+  color: #585076;
+  font-family: 'Roboto';
+  font-size: 25px;
+  font-weight: 500;
+}
+
+.balance-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.amount {
+  color: white;
+  font-family: 'Roboto';
+  font-size: 30px;
+}
+
+.rupees {
+  color: #585076;
+  font-size: 14px;
+  font-family: 'Roboto';
+  font-weight: 500;
+}
+
+.withdraw {
+  color: white;
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 25px;
+}
+
+.buttons-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  list-style-type: none;
+  flex-wrap: wrap;
+  margin-top: -5px;
+  margin-left: -40px;
+  width: 100%;
+}

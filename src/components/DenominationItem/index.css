@@ -1,0 +1,15 @@
+/* Write your CSS here */
+.button {
+  height: 40px;
+  width: 150px;
+  color: white;
+  border: 1px white solid;
+  border-radius: 10px;
+  background-color: #585076;
+  margin: 10px;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+}
